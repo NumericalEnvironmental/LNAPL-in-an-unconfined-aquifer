@@ -1,0 +1,3 @@
+fluid	density
+water	1
+LNAPL	0.85
