@@ -1,4 +1,7 @@
 # LNAPL-in-an-unconfined-aquifer
+
+![Preview](https://numericalenvironmental.files.wordpress.com/2016/12/schematic.jpg?w=646&h=364)
+
 A Julia-language script for modeling LNAPL floating on top of groundwater in a single-layer unconfined aquifer using an integral finite difference methodology. Input files include:
 
 *nodes.txt – locations of volume element centroids, along with local initial conditions, hydraulic conductivity, and specific yield
@@ -9,7 +12,7 @@ A Julia-language script for modeling LNAPL floating on top of groundwater in a s
 
 *knobs.txt – basic model controls (time stepping constraints, etc.)
 
-More info can be found here: (link coming soon)
+More info can be found here: https://numericalenvironmental.wordpress.com/2016/12/08/an-integrated-finite-difference-based-two-layer-lnapl-groundwater-model-written-in-julia/
 
 I'd appreciate hearing back from you if you find the script useful. Questions or comments are welcome at walt.mcnab@gmail.com.
 
