@@ -2,13 +2,13 @@
 
 ![Preview](https://numericalenvironmental.files.wordpress.com/2016/12/schematic.jpg?w=646&h=364)
 
-A Julia-language script for modeling LNAPL floating on top of groundwater in a single-layer unconfined aquifer using an integral finite difference methodology. Input files include:
+A Julia-language script for modeling LNAPL floating on top of groundwater in a single-layer unconfined aquifer using an integral finite difference methodology. Specifically, the movement of immiscible fluids of contrasting density and effective hydraulic conductivity in porous media is simulated, including responses to extraction well operation and LNAPL bail-down testing. Input files include:
 
 *nodes.txt – locations of volume element centroids, along with local initial conditions, hydraulic conductivity, and specific yield
 
 *connects.txt – connection information for how the nodes are linked together in a model mesh (connection distances and interfaces)
 
-*fluids.txt – fluid properties 9just name and density for now)
+*fluids.txt – fluid properties (just name and density for now)
 
 *knobs.txt – basic model controls (time stepping constraints, etc.)
 
